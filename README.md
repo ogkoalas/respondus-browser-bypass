@@ -9,7 +9,7 @@ Bypass Respondus LockDown Browser's window restrictions. Alt+Tab freely, open an
 ## 🚀 How to Use
 
 1. Press code at the top and download the zip
-2. Make sure all files are in the **same folder**
+2. Unzip and Make sure all files are in the **same folder**
 3. **Double-click `RUN.bat`** — it auto-requests Admin
 4. Open **LockDown Browser** when prompted
 5. Wait for the **beep** (~3 sec) — Alt+Tab now works!
