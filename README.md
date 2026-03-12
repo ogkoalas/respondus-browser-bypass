@@ -1,31 +1,15 @@
 # 🔓 Respondus LockDown Browser Bypass
 
-Bypass Respondus LockDown Browser's window restrictions. Alt+Tab freely, keep your taskbar, and use your PC normally.
+Bypass Respondus LockDown Browser's window restrictions. Alt+Tab freely, open any window, and use your PC normally.
 
 **For educational and research purposes only.**
-
-**DISCORD**: https://discord.gg/TDptGgH9HM
-
----
-
-## ✅ Features
-
-| Feature | Status |
-|---|---|
-| Alt+Tab to switch windows | ✅ |
-| Taskbar stays visible | ✅ |
-| Typing & clicking work normally in LDB | ✅ |
-| Blocks LDB from detecting window switches | ✅ |
-| Blocks LDB from killing other apps | ✅ |
-| Blocks LDB from clearing clipboard | ✅ |
-| Blocks LDB from locking keyboard | ✅ |
 
 ---
 
 ## 🚀 How to Use
 
-1. Download all files from the [latest release](../../releases/latest)
-2. Put them all in the **same folder**
+1. Press code at the top and download the zip
+2. Make sure all files are in the **same folder**
 3. **Double-click `RUN.bat`** — it auto-requests Admin
 4. Open **LockDown Browser** when prompted
 5. Wait for the **beep** (~3 sec) — Alt+Tab now works!
@@ -60,5 +44,4 @@ All 4 files must be in the same folder.
 
 This tool is for **educational and research purposes only**. Use at your own risk. I am not responsible for any misuse or consequences.
 
-**DISCORD**: https://discord.gg/TDptGgH9HM
 
