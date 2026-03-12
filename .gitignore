@@ -1,0 +1,41 @@
+# Build output
+Release/
+Debug/
+x64/
+*.obj
+*.pdb
+*.idb
+*.ilk
+*.pch
+*.ipch
+*.tlog
+*.log
+*.lastbuildstate
+*.recipe
+*.iobj
+*.ipdb
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+
+# Temp files
+*.tmp
+dllhooks_log.txt
+
+# Source code - keep private
+*.cpp
+*.h
+*.py
+*.vcxproj
+*.vcxproj.filters
+injector.py
+
+# PyInstaller
+build/
+dist/
+*.spec
