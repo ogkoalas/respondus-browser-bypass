@@ -1,12 +1,14 @@
-# 🔓 LockDown Browser Unlocker
+# 🔓 Respondus LockDown Browser Bypass
 
-Bypass Respondus LockDown Browser's window restrictions during exams. This tool is for **educational and research purposes only**.
+Bypass Respondus LockDown Browser's window restrictions. Alt+Tab freely, keep your taskbar, and use your PC normally.
 
-**JOIN OUR DISCORD**: https://discord.gg/TDptGgH9HM
+**For educational and research purposes only.**
+
+**DISCORD**: https://discord.gg/TDptGgH9HM
 
 ---
 
-## ✅ What It Does
+## ✅ Features
 
 | Feature | Status |
 |---|---|
@@ -20,63 +22,42 @@ Bypass Respondus LockDown Browser's window restrictions during exams. This tool 
 
 ---
 
-## 🚀 Quick Start (No Python needed!)
+## 🚀 How to Use
 
-1. **Download** `LDB_Unlocker_v1.0.zip` from the [latest release](../../releases/latest)
-2. **Extract** the zip anywhere
-3. **Double-click `RUN.bat`** — it auto-elevates to admin
-4. **Launch LockDown Browser** when prompted
-5. Wait for the **beep sound** (~3 sec) — you can now Alt+Tab!
+1. Download all files from the [latest release](../../releases/latest)
+2. Put them all in the **same folder**
+3. **Double-click `RUN.bat`** — it auto-requests Admin
+4. Open **LockDown Browser** when prompted
+5. Wait for the **beep** (~3 sec) — Alt+Tab now works!
 
-That's it. No Python, no building, no command line.
+**No Python needed. No building. Just download and run.**
 
 ---
 
-## 📁 Release Contents
+## 📁 Required Files
 
-| File | Description |
+| File | What it does |
 |---|---|
-| `RUN.bat` | One-click launcher (auto-elevates to admin) |
-| `LDB_Unlocker.exe` | Standalone injector (no Python needed) |
-| `injector32.exe` | 32-bit native injector |
-| `DLLHooks.dll` | Hook DLL injected into LDB |
+| `RUN.bat` | One-click launcher (auto-elevates to Admin) |
+| `DLLHooks.dll` | Hook DLL that gets injected into LDB |
+| `injector32.exe` | 32-bit injector |
+
+All 3 files must be in the same folder.
 
 ---
 
-## 🛠️ Building From Source
+## ⚠️ Notes
 
-If you want to compile the DLL and injector yourself:
-
-### Requirements
-- Visual Studio 2022 or newer
-- Python 3.7+
-
-### Build the DLL
-1. Open `Project1.vcxproj` in Visual Studio
-2. Set configuration to **Release | Win32**
-3. Build (Ctrl+B)
-4. Output: `Release\Project1.dll` → rename to `DLLHooks.dll`
-
-### Build the Injector
-Open a **x86 Native Tools Command Prompt** and run:
-```
-cl /EHsc /MT /O2 /Fe:injector32.exe injector32.cpp /link user32.lib kernel32.lib
-```
-
----
-
-## ⚠️ Important Notes
-
-- **Run as Administrator** — required for DLL injection
-- Works with **LockDown Browser on Windows 10/11** (32-bit LDB)
-- The beep sound after injection confirms hooks are active
-- If your taskbar disappears, press `Win` key or restart Explorer
+- **Must run as Administrator**
+- Works with **LockDown Browser on Windows 10/11**
+- You'll hear a **beep** when hooks are active
+- If your taskbar disappears after closing LDB, press the `Win` key or restart Explorer
 
 ---
 
 ## 📜 Disclaimer
 
-This tool is provided for **educational and research purposes only**. Use at your own risk. The authors are not responsible for any misuse or consequences.
+This tool is for **educational and research purposes only**. Use at your own risk. I am not responsible for any misuse or consequences.
 
 **DISCORD**: https://discord.gg/TDptGgH9HM
 
