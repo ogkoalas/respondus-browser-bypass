@@ -39,10 +39,11 @@ Bypass Respondus LockDown Browser's window restrictions. Alt+Tab freely, keep yo
 | File | What it does |
 |---|---|
 | `RUN.bat` | One-click launcher (auto-elevates to Admin) |
+| `LDB_Unlocker.exe` | Injector (no Python needed) |
 | `DLLHooks.dll` | Hook DLL that gets injected into LDB |
 | `injector32.exe` | 32-bit injector |
 
-All 3 files must be in the same folder.
+All 4 files must be in the same folder.
 
 ---
 
